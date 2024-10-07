@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busca CEP</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
     <header>
-        <h1>Busca CEP</h1>
+        <h1>Buscar endereço - ViaCEP</h1>
     </header>
     <main>
         <section class="cep-section">
             <form action="">
                 <section>
-                    <label for="CEP">CEP: </label>
+                    <label for="cep">CEP: </label>
                     <input type="number" name="cep" id="cep" placeholder="Digite seu cep">
-                    <button type="submit">BUSCAR</button>
+                    <input type="button" value="BUSCAR" id="search">
                 </section>
 
                 <section>
                     <section class="cep-section">
-                        <input type="text" name="street" id="street" placeholder="Rua">
+                        <input type="text" name="street" id="street" placeholder="Rua" readonly>
                     </section>
 
                     <section class="cep-section">
-                        <input type="text" name="district" id="district" placeholder="Bairro">
+                        <input type="text" name="district" id="district" placeholder="Bairro" readonly>
                     </section>
 
                     <section class="cep-section">
-                        <input type="text" name="city" id="city" placeholder="Cidade">
+                        <input type="text" name="city" id="city" placeholder="Cidade" readonly>
                     </section>
 
                     <section class="cep-section">
-                        <input type="text" name="state" id="state" placeholder="UF">
+                        <input type="text" name="state" id="state" placeholder="UF" readonly>
                     </section>
                 </section>
             </form>
@@ -42,5 +42,6 @@
     <footer>
         <p>Desenvolvido por Paulo Diego. ©</p>
     </footer>
+    <script src="../src/script.js"></script>
 </body>
 </html>

@@ -15,7 +15,8 @@ header{
     text-decoration: underline;
 }
 
-button {
+#search {
+    width: 100px;
     margin-left: 30px;
     background-color: rgb(0, 110, 0);
     color: white;
@@ -26,12 +27,12 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+#search:hover {
     background-color: rgb(0, 150, 0);
     box-shadow: 5px;
 }
 
-button:active {
+#search:active {
     scale: 95%;
 }
 
@@ -47,6 +48,8 @@ main {
 }
 
 #cep {
+    background-color: white;
+    color: black;
     width: 200px;
 }
 
@@ -56,6 +59,8 @@ section input {
     width: 500px;
     font-family: Nunito;
     font-size: 16px;  
+    background-color: rgb(150, 150, 150);
+    color: white;
     border: 2px solid black;
     border-radius: 5px;
     outline: none;
