@@ -3,7 +3,11 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #003d69;
+=======
+    background-color: #78c1f5;
+>>>>>>> bfc77c99617f60cbe32083dc5f48bf2e924eafa8
     color: white;
     font-family: Nunito;
     width: screen;
